@@ -6,10 +6,10 @@ for _,v in pairs({"oak", "jungle", "pine"}) do
     end
 end
 
-local chance = minetest.settings:get("shipwrecks_chance") or 15
-local disp = minetest.settings:get("shipwrecks_horizontal_displacement") or 16
-local v_disp = minetest.settings:get("shipwrecks_vertical_displacement") or 5
-local global_seed = minetest.settings:get("shipwrecks_seed") or 0
+local chance = tonumber(minetest.settings:get("shipwrecks_chance")) or 15
+local disp = tonumber(minetest.settings:get("shipwrecks_horizontal_displacement")) or 16
+local v_disp = tonumber(minetest.settings:get("shipwrecks_vertical_displacement")) or 5
+local global_seed = tonumber(minetest.settings:get("shipwrecks_seed")) or 0
 
 local rotations = {"0", "90", "180", "270"}
 
