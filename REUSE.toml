@@ -1,0 +1,28 @@
+version = 1
+
+# Source Code
+[[annotations]]
+path = [
+	"init.lua",
+	"locale/**",
+	"schematics/**",
+	"screenshot.png",
+]
+SPDX-FileCopyrightText = [
+	"2026 mt-mods contributors"
+]
+SPDX-License-Identifier = "GPL-3.0-only"
+
+# Metadata/config files
+[[annotations]]
+path = [
+	".luacheckrc",
+	".github/**",
+	".gitattributes",
+	".cdb.json",
+	"README.md",
+	"mod.conf",
+	"settingtypes.txt"
+]
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC0-1.0"
