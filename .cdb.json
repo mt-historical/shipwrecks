@@ -1,0 +1,9 @@
+{
+	"$schema": "https://content.luanti.org/api/cdb_schema/",
+	"type": "MOD",
+	"title": "Shipwrecks",
+	"short_description": "A simple mod that adds various shipwrecks with treasures into the ocean",
+	"tags": ["mapgen", "survival"],
+	"issue_tracker": "https://github.com/mt-historical/shipwrecks/issues",
+	"repo": "https://github.com/mt-historical/shipwrecks"
+}
